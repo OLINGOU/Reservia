@@ -1,14 +1,11 @@
-@media all and (max-width: 1000px)
+@media screen and (max-width: 1000px)
 {
     #navigation
-    {    
-       display: none;
+    {  
+        margin-right: 30%;  
+       
    }
-   
-   #navigation
-   {
-       display: none;
-   }
+               
    #recherche
    {
        width: auto;
@@ -19,45 +16,91 @@
        flex-direction: column;
        justify-content: center;
    }
+   .information
+   {
+       width: auto;
+   }
+    
+
    #conteneur
    {
+       width: auto;
+       height: auto;
        flex-direction: column-reverse;
    }
    #conteneur1
    {
-       display: none;
+       width: auto;
+       height: auto;
+       flex-direction: column;
+       background-color: white;
+       justify-content: space-around;
+       align-items: center;
+   }
+   #conteneur2
+   {
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .entete .chart
+   {
+       margin-left: 50px;
+   }
+   .image1
+   {
+       
+       
+    
+       
+   }
+   .image2
+   {
+    
+    
+   }
+   .image3
+   {
+    
+    
+   }
+   .affich
+   {
+    
+    
+   }
+   .image5
+   {
+    
+    
+   }
+   .image6
+   {
+    width: 80%;
+    
+   }
+   .imagepop
+   {
+       width: 80%;
+       height: auto;
    }
    #conteneur3
    {
        width: auto;
+       height: auto;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
    }
-   .actim1
-   {
-       height: 100px;
-   }
-   .actim2
-   {
-       height: 100px;
-   }
-   .actim3
-   {
-       height: 100px;
-   }
-   .actim4
-   {
-       height: 100px;
-   }
-   .actim5
-   {
-       height: 100px;
-   }
-   .actim6
-   {
-       height: 100px;
-   }
+   
+  
    .foot
    {
-       display: none;
+       width: auto;
+       height: auto;
+       flex-direction: column;
+       align-items: center;
    }
 
 
