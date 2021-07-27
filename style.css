@@ -4,21 +4,27 @@
 #navigation
 {
     display: flex;
-    justify-content: flex-end;
+    width: 100%;
+    justify-content: space-between;
     padding-right: 80px;
   
 } 
   
 nav p
 {
-    margin-bottom: 30px;
+    padding-top: 40px;
     padding-left: 40px;
     
+}
+.nav12
+{
+    display: flex;
+    margin-left: 700px;
 }
 
 .nav1
 {
-    width: 140px;
+    
     border-top: #0065FC solid 1px;
     margin-right: 40px;
     padding-top: 60px;
@@ -48,6 +54,7 @@ nav p
 .nav3
 {
     padding-top: 60px;
+    margin-right: 70px;
 }
 .nav3 a
 {
@@ -244,14 +251,16 @@ h3
    justify-content: space-around;
    
 }
-.affich h3
-{
-    padding-top: 15px;
-}
+
 .hebergement
 {
     display: flex;
     flex-direction: column;
+}
+.image1 img, .image2 img, .image3 img, .affich img, .image5 img, .image6 img
+{
+    width: 230px;
+    height: 120px;
 }
 .hebergement h2
 {
@@ -259,10 +268,18 @@ h3
     font-size: medium;
     padding-bottom: 10px;
 }
-.affich
+.afficher
 {
     display: flex;
     flex-direction: column;
+}
+.affich comment
+{
+    margin-bottom: 10px;
+}
+.afficher h3
+{
+    margin-top: 35px;
 }
 #conteneur1 p
 {
@@ -386,7 +403,7 @@ h3
 .comment
 {
     padding-left: 10px;
-    padding-bottom: 8px;
+    
 }
 .comment h3
 {
@@ -444,6 +461,7 @@ h3
     
     
 }
+
 .imagepop:hover
 {
     cursor: pointer;
@@ -452,6 +470,8 @@ h3
   
 .imagepop img
 {
+    width: 120px;
+    height: 120px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-right: 35px;
@@ -606,6 +626,8 @@ h3
 
 .actim1 img
 {
+    width: 250px;
+    height: 300px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     
@@ -613,7 +635,7 @@ h3
 .actim2
 {
     width: 250px;
-    height: 200px;
+    height: 210px;
     margin-top: 57px;
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
@@ -626,6 +648,8 @@ h3
 }
 .actim2 img
 {
+    width: 250px;
+    height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
       
@@ -633,7 +657,7 @@ h3
 .actim3
 {
     width: 250px;
-    height: 110px;
+    height: 140px;
     margin-top: 57px;
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
@@ -647,6 +671,8 @@ h3
 }
 .actim3 img
 {
+    width: 250px;
+    height: 75px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -668,6 +694,8 @@ h3
 }
 .actim4 img
 {
+    width: 250px;
+    height: 300px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -687,6 +715,8 @@ h3
 }
 .actim5 img
 {
+    width: 250px;
+    height: 110px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -706,6 +736,8 @@ h3
 }
 .actim6 img
 {
+    width: 250px;
+    height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
