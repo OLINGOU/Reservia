@@ -40,20 +40,56 @@
 }
 @media screen and (max-width: 978px)
 {
-    .filtre1
+    #navigation
     {
-        display: flex;
-        flex-direction: row;
-        
+        flex-wrap: wrap;
     }
-    .filtre2
+    .nav12
     {
-        display: flex;
-        flex-direction: column;
+        margin-left: 0px;
+        order: 1;
+        width: 100%;
+    }
+    .nav1
+    {
+        border-top: none;
+        border-bottom:  #0065FC solid 2px;
+        padding-top: none;
+        padding-bottom: 30px;
+    }  
+    #recherche
+    {
+        width: auto;
+        border: none;
+    }
+       
+    .ville
+    {
+        width: 200px;
+        border: 1px solid #f2f2f2;
+    }
+    .bouton
+    {
+        display: none;
+    }
+    .bouton2
+    {
+        display: block;
     }
     #filtre
     {
+        flex-direction: column;
+        align-items: flex-start;
         
+    }
+    .filtre1
+    {
+        margin-left: 0px;
+    }
+        
+    .filtre2
+    {
+       flex-direction: column; 
     }
     #conteneur
     {
@@ -75,8 +111,8 @@
     }
     .image1 img, .image2 img, .image3 img, .affich img, .image5 img, .image6 img 
    {
-       width: 100;
-       height: auto;
+       width: 100%;
+       max-height:  100px;
    }
     .imagepop
     {
@@ -86,7 +122,7 @@
     .imagepop img 
     {
         width: 60%;
-        height: auto;
+        max-height:  100px;
     }
     #conteneur2
     {
@@ -98,6 +134,21 @@
         width: 100%;
         height: auto;
         flex-direction: column;
+    }
+    .activite1, .activite2, .activite3, .activite4
+    {
+        width: 80%;
+        height: auto;
+    }
+    .actim1, .actim2, .actim3, .actim4, .actim5, .actim6
+    {
+        width: 100%;
+        height: auto;
+    }
+    .actim1 img, .actim2 img, .actim3 img, .actim4 img, .actim5 img, .actim6 img
+    {
+        width: 100%;
+        max-height:     100px;
     }
     .foot
     {
