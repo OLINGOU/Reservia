@@ -1,81 +1,48 @@
-@media screen and (max-width: 1095px)
+@media screen and (max-width: 1125px)
 {
     .nav12
-    {  
-        margin-left: 400px; 
-       
-   }
-   #conteneur
-   {
-      width: 100%;
-      height: auto; 
+    {
+        margin-left: 400px;
+    }
+    .image1, .image2, .image3, .afficher, .affich, .image4, .image5, .image6
+    {
+        width: 180px;
+        min-height: auto;
         
-   }
-   #conteneur1
-   {
-     width: 70%;
-     height: auto;                          
-              
-   }
-   #conteneur2
-   {
-    
-    width: 30%;
-       
-   }
-   
-   .image1, .image2, .image3, .affich, .image5, .image6
-   {
-     
-    width: 150px;
-    height: 200px;      
-          
-   }
-   .image1 img, .image2 img, .image3 img, .affich img, .image5 img, .image6 img 
-   {
-       width: 150px;
-       height: 80px;
-   }
-  
-}
-@media screen and (max-width: 978px)
-{
-    #navigation
+    } 
+    .image1 img, .image2 img, .image3 img, .image4 img, .image5 img, .image6 img 
     {
-        flex-wrap: wrap;
+        width: 180px;
+        min-height: auto;
     }
-    .nav12
+    #conteneur2
     {
-        margin-left: 0px;
-        order: 1;
-        width: 100%;
+        margin-left: 20px;
+        
     }
-    .nav1
+    .imagepop
     {
-        border-top: none;
-        border-bottom:  #0065FC solid 2px;
-        padding-top: none;
-        padding-bottom: 30px;
-    }  
-    #recherche
-    {
-        width: auto;
-        border: none;
+        width: 250px;
+        min-height: auto;
     }
-       
-    .ville
+    .imagepop img 
+    {
+        width: 100px ;
+        min-height: auto;
+    }
+    .actim1, .actim2, .actim3, .actim4, .actim5, .actim6
     {
         width: 200px;
-        border: 1px solid #f2f2f2;
+        min-height: auto;
     }
-    .bouton
+    .actim1 img, .actim2 img, .actim3 img, .actim4 img, .actim5 img, .actim6 img 
     {
-        display: none;
+        width: 200px;
+        min-height: auto;
     }
-    .bouton2
-    {
-        display: block;
-    }
+}
+@media screen and (max-width: 1005px)
+{
     #filtre
     {
         flex-direction: column;
@@ -94,82 +61,260 @@
     #conteneur
     {
         flex-direction: column-reverse;
+        height: auto;
+        width: 100%;
+        align-items: center;
     }
     #conteneur1
     {
-        width: 100%;
+        width: 90%;
         height: auto;
         flex-direction: column;
         background-color: white;
+        padding-right: 0px;
+        padding-left: 0px;
+        align-items: center;
     }
-    .image1, .image2, .image3, .affich, .image5, .image6
+    .hebergement, .image2, .image3, .afficher,  .image5, .image6
     {
       
-     width: 80%;
-     height: auto;      
+     width: 60%;
+     
+     
+           
            
     }
-    .image1 img, .image2 img, .image3 img, .affich img, .image5 img, .image6 img 
-   {
-       width: 100%;
-       max-height:  100px;
-   }
-    .imagepop
+    .image1, .image1 img, .image2 img, .image3 img, .affich, .image4, .image4 img, .image5 img, .image6 img 
     {
-        width: 80%;
-        height: auto;
+        width: 100%;
+        
+        
     }
-    .imagepop img 
+    .image2, .image3
     {
-        width: 60%;
-        max-height:  100px;
+        margin-top: -3px;
     }
     #conteneur2
     {
-        width: 100%;
+        width: 90%;
         height: auto;
+        margin-left: 0px;
+        padding-left: 0px;
+        align-items: center;
+        
+    }
+    .entete 
+    {
+        
+        padding-left: 80px;
+    }
+    .chart
+    {
+        
+        margin-left: 350px;
+    }
+    .imagepop
+    {
+        width: 60%;
+        
+    }
+    .imagepop img 
+    {
+        width: 200px;
+        height: 120px;
+    }
+    .commentaire p 
+    {
+        padding-right: 0px;
+        margin-right: 0px;
     }
     #conteneur3
     {
         width: 100%;
         height: auto;
         flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        
+        
     }
     .activite1, .activite2, .activite3, .activite4
     {
-        width: 80%;
-        height: auto;
+        width: 60%;
+        
+    }
+    .activite1
+    {
+        margin-bottom: -100px;
+        
     }
     .actim1, .actim2, .actim3, .actim4, .actim5, .actim6
     {
         width: 100%;
-        height: auto;
+        height: 200px; 
+        
     }
+    .actim2, .actim3,  .actim5, .actim6
+    {
+    
+        margin-top: 0px;
+    }
+    .actim2, .actim3, .actim5
+    {
+        margin-bottom: 30px;
+    }
+    .activite4
+    {
+        margin-top: -100px;
+    }
+    
     .actim1 img, .actim2 img, .actim3 img, .actim4 img, .actim5 img, .actim6 img
     {
         width: 100%;
-        max-height:     100px;
+        height: 150px;
+        
     }
     .foot
     {
         width: 100%;
         height: auto;
         flex-direction: column;
+        align-items: center;
     }
+    
+}
+@media screen and (max-width: 906px)
+{
+    #navigation
+    {
+        width: 100%;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
+    .nav12
+    {
+        margin-left: 200px;
+    }
+    .entete 
+    {
+        
+        padding-left: 100px;
+    }
+    .chart
+    {
+        
+        margin-left: 280px;
+    }
+}
+@media screen and (max-width: 706px)
+{
+    html, body
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    #navigation
+    {
+        flex-wrap: wrap;
+    }
+    .nav12
+    {
+        margin-left: 0px;
+        order: 1;
+        width: 100%;
+    }
+    .nav1
+    {
+        border-top: none;
+        border-bottom:  #0065FC solid 2px;
+        padding-top: none;
+        padding-bottom: 30px;
+        width: 50%;
+        margin-right: 0px;
+    } 
+    .nav2 
+    {
+        width: 50%;
+        border-bottom: #F2F2F2 solid 2px;
+        padding-bottom: 30px;
+        text-align: center;
+    } 
+    #recherche
+    {
+        width: auto;
+        border: none;
+    }
+       
+    .ville
+    {
+        width: 200px;
+        border: 1px solid #f2f2f2;
+    }
+    .bouton
+    {
+        display: none;
+    }
+    .bouton2
+    {
+        display: block;
+        
+        
+    }
+    .bouton2 a 
+    {
+        align-items: center;
+    }
+    .conteneur
+    {
+        width: 100%;
+    }
+    .conteneur1
+    {
+        width: 100%;
+    }
+    .conteneur2
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .entete
+    {
+        padding-left: 0px;
+        margin-left: 50px;
+    }
+    .chart
+    {
+        
+        margin-left:  300px;
+        
+        
+    }
+    .imagepop
+    {
+        width: 90%;
+    }
+    .hebergement, .image2, .image3, .afficher,  .image5, .image6
+    {
+      
+     width: 90%;
+               
+        
+    }
+    .activite1, .activite2, .activite3, .activite4
+    {
+        width: 90%;
+        
+    }
+    .foot
+    {
+        align-items: flex-start;
+    }
+    .foot1, .foot2, .foot3
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: auto;
+    }
 
 
 }
