@@ -249,6 +249,10 @@
         width: 200px;
         border: 1px solid #f2f2f2;
     }
+    .description h2
+    {
+        margin-top: 30px;
+    }
     .bouton
     {
         display: none;
@@ -261,6 +265,12 @@
     }
     .bouton2 a 
     {
+        align-items: center;
+    }
+    .element
+    {
+        padding-left: 0px;
+        padding-right: 0px;
         align-items: center;
     }
     .conteneur
