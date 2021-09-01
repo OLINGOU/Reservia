@@ -1,48 +1,9 @@
 @media screen and (max-width: 1125px)
-{
+{  
     .nav12
     {
-        margin-left: 400px;
+        margin-left: 200px;
     }
-    .image1, .image2, .image3, .afficher, .affich, .image4, .image5, .image6
-    {
-        width: 180px;
-        min-height: auto;
-        
-    } 
-    .image1 img, .image2 img, .image3 img, .image4 img, .image5 img, .image6 img 
-    {
-        width: 180px;
-        min-height: auto;
-    }
-    #conteneur2
-    {
-        margin-left: 20px;
-        
-    }
-    .imagepop
-    {
-        width: 250px;
-        min-height: auto;
-    }
-    .imagepop img 
-    {
-        width: 100px ;
-        min-height: auto;
-    }
-    .actim1, .actim2, .actim3, .actim4, .actim5, .actim6
-    {
-        width: 200px;
-        min-height: auto;
-    }
-    .actim1 img, .actim2 img, .actim3 img, .actim4 img, .actim5 img, .actim6 img 
-    {
-        width: 200px;
-        min-height: auto;
-    }
-}
-@media screen and (max-width: 1005px)
-{
     #filtre
     {
         flex-direction: column;
@@ -75,18 +36,27 @@
         padding-left: 0px;
         align-items: center;
     }
-    .hebergement, .image2, .image3, .afficher,  .image5, .image6
+    .hebergement, .image2, .image3, .afficher,  .image5, .affichermob
     {
       
      width: 60%;
+     margin-top: 10px;
      
-     
-           
+          
            
     }
-    .image1, .image1 img, .image2 img, .image3 img, .affich, .image4, .image4 img, .image5 img, .image6 img 
+    .affichermob h3
+    {
+        display: block;
+    }
+    .afficher h3
+    {
+        display: none;
+    }
+     .image,.image1 img, .image2 img, .image3 img, .affich, .image4, .image4 img, .image5 img, .affichmob, .image6 img 
     {
         width: 100%;
+        height: 125px;
         
         
     }
@@ -116,12 +86,14 @@
     .imagepop
     {
         width: 60%;
+        height: 130px;
+        
         
     }
     .imagepop img 
     {
         width: 200px;
-        height: 120px;
+        height: 125px
     }
     .commentaire p 
     {
@@ -259,13 +231,25 @@
     }
     .bouton2
     {
-        display: block;
+        display: flex;
         
         
     }
     .bouton2 a 
     {
+       display: flex;
         align-items: center;
+    }
+    .choix3
+    {
+        margin-top: 15px;
+        padding-right: 20px;
+        
+    }
+           
+    .choix4
+    {
+       margin-top: 15px;
     }
     .element
     {
@@ -276,21 +260,45 @@
     .conteneur
     {
         width: 100%;
+        height: auto;
     }
     .conteneur1
     {
         width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 20px;
+    }
+    .affichermob h3
+    {
+        display: flex;
+    }
+    .afficher h3
+    {
+        display: none;
     }
     .conteneur2
     {
         width: 100%;
+        height: auto;
         margin-left: 0px;
         margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .conteneur3
+    {
+        width: 100%;
+        height: auto;
+        margin-top:0px;
     }
     .entete
     {
         padding-left: 0px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .chart
     {
@@ -302,12 +310,27 @@
     .imagepop
     {
         width: 90%;
+        height: 120px;
     }
-    .hebergement, .image2, .image3, .afficher,  .image5, .image6
+    .hebergement, .image2, .image3, .afficher,  .image5, .affichermob, .affichmob, .affich, .image6
     {
       
      width: 90%;
+     height: auto;
+     
                
+        
+    }
+    .hebergement, .image2, .image3, .afficher,  .image5, .affichermob,  .image6
+    {
+      margin-top: 50px;
+    }
+
+    .image1,.image1 img, .image2 img, .image3 img, .affichmob, .affich, .image4, .image4 img, .image5 img, .image6 img 
+    {
+        width: 100%;
+        height: 135px;
+        
         
     }
     .activite1, .activite2, .activite3, .activite4
@@ -323,6 +346,7 @@
     {
         margin-left: 0px;
         margin-right: 0px;
+        width: auto;
         height: auto;
     }
 
