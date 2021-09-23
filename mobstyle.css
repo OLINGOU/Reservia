@@ -1,229 +1,236 @@
-@media screen and (max-width: 1125px)
-{  
+@media screen and (max-width: 1106px)
+{
+   .nav12
+   {
+       margin-left: 400px;
+   } 
+   #conteneur
+   {
+       flex-direction: column-reverse;
+   }
+   #conteneur1
+   {
+       width: 100%;
+       height: auto;
+       margin-top: 50px;
+       margin-right: 0px;
+   }
+   #conteneur2
+   {
+       width: 100%;
+       height: auto;
+       margin-left: 0px;
+       
+       
+       
+   }
+   .blocpop
+   {
+       width: 100%;
+       margin-left: 150px;
+   }
+   .entete
+   {
+       justify-content: space-evenly;
+       margin-right: 100px;
+       
+   }
+   .chart
+   {
+       margin-right:  -20px;
+   }
+   .imagepop1 , .imagepop2 , .imagepop3
+   {
+       width: 70%;
+   }
+   .activite1 , .activite2 , .activite3 , .activite4
+   {
+       width: 20%;
+       height: 400px;
+   }
+   .actim1 , .actim2 , .actim3 , .actim4 , .actim5 , .actim6
+   {
+       width: 100%;
+       
+   }
+   .actim1 img , .actim2 img , .actim3 img , .actim4 img , .actim5 img , .actim6 img
+   {
+       width: 100%;
+    
+   }
+}
+@media screen and (max-width: 914px)
+{
+    
     .nav12
     {
-        margin-left: 200px;
+        margin-left: 150px;
+    }
+    #conteneur1
+    {
+        flex: none;
+        width: 90%;
+        padding: 5%;
+    }
+    #conteneur2
+    {
+        flex: none;
+        width: 90%;
+        padding-right: 200px;
+        justify-content: center;
+    }
+    #conteneur3
+    {
+        height: auto;
     }
     #filtre
     {
         flex-direction: column;
         align-items: flex-start;
-        
+        padding-left: 0px;
     }
     .filtre1
     {
         margin-left: 0px;
     }
-        
     .filtre2
     {
-       flex-direction: column; 
-    }
-    #conteneur
-    {
-        flex-direction: column-reverse;
-        height: auto;
-        width: 100%;
-        align-items: center;
-    }
-    #conteneur1
-    {
-        width: 90%;
-        height: auto;
         flex-direction: column;
-        background-color: white;
-        padding-right: 0px;
-        padding-left: 0px;
-        align-items: center;
-    }
-    .hebergement, .image2, .image3, .afficher,  .image5, .affichermob
-    {
-      
-     width: 60%;
-     margin-top: 10px;
-     
-          
-           
-    }
-    .affichermob h3
-    {
-        display: block;
-    }
-    .afficher h3
-    {
-        display: none;
-    }
-     .image,.image1 img, .image2 img, .image3 img, .affich, .image4, .image4 img, .image5 img, .affichmob, .image6 img 
-    {
-        width: 100%;
-        height: 125px;
-        
+        margin-top: 10px;
         
     }
-    .image2, .image3
+    .choix2
     {
-        margin-top: -3px;
-    }
-    #conteneur2
-    {
-        width: 90%;
-        height: auto;
-        margin-left: 0px;
-        padding-left: 0px;
-        align-items: center;
-        
-    }
-    .entete 
-    {
-        
-        padding-left: 80px;
-    }
-    .chart
-    {
-        
-        margin-left: 350px;
-    }
-    .imagepop
-    {
-        width: 60%;
-        height: 130px;
-        
-        
-    }
-    .imagepop img 
-    {
-        width: 200px;
-        height: 125px
-    }
-    .commentaire p 
-    {
-        padding-right: 0px;
         margin-right: 0px;
     }
-    #conteneur3
+    .choix4
+    {
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    .element3
+    {
+        padding-left: 20px;
+        padding-right: 0px; 
+              
+    
+    }
+    .element4
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .blocpop
+    {
+        margin-left: 100px;
+        
+    }
+   
+    .imagepop1 , .imagepop2 , .imagepop3
+   {
+       width: 100%;
+       height: auto;
+   }
+    .entete
+    {
+        width: 100%;
+        margin-left: 0px;
+        justify-content: space-between;
+    }
+    .hebergement1
+    {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .hebergement2
+    {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .image
+    {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .comment
+    {
+        min-height: auto;
+    }
+    .blocacti
+    {
+        flex-direction: column;
+    }
+    .activite1 , .activite2 , .activite3 , .activite4
     {
         width: 100%;
         height: auto;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-        
-        
     }
-    .activite1, .activite2, .activite3, .activite4
-    {
-        width: 60%;
-        
-    }
-    .activite1
-    {
-        margin-bottom: -100px;
-        
-    }
-    .actim1, .actim2, .actim3, .actim4, .actim5, .actim6
+    .actim1 ,  .actim3 , .actim4 , .actim6
     {
         width: 100%;
-        height: 200px; 
-        
+        height: auto;
+        margin-bottom: 50px;
     }
-    .actim2, .actim3,  .actim5, .actim6
-    {
-    
-        margin-top: 0px;
-    }
-    .actim2, .actim3, .actim5
-    {
-        margin-bottom: 30px;
-    }
-    .activite4
-    {
-        margin-top: -100px;
-    }
-    
-    .actim1 img, .actim2 img, .actim3 img, .actim4 img, .actim5 img, .actim6 img
+    .actim2 , .actim5
     {
         width: 100%;
-        height: 150px;
-        
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .actim1 img , .actim2 img , .actim3 img , .actim4 img , .actim5 img , .actim6 img
+    {
+        height: 200px;
     }
     .foot
     {
-        width: 100%;
-        height: auto;
         flex-direction: column;
-        align-items: center;
+        height: auto;
+        align-items: flex-start;
+        padding-left: 20px;
     }
-    
-}
-@media screen and (max-width: 906px)
-{
-    #navigation
-    {
-        width: 100%;
-
-    }
-    .nav12
-    {
-        margin-left: 200px;
-    }
-    .entete 
-    {
-        
-        padding-left: 100px;
-    }
-    .chart
-    {
-        
-        margin-left: 280px;
-    }
-}
-@media screen and (max-width: 706px)
-{
-    html, body
+    .foot1 , .foot2 , .foot3
     {
         margin: 0px;
-        padding: 0px;
+        height: auto;
+        width: 100%;
     }
+
+
+}
+@media screen and (max-width: 896px)
+{
+    .entete
+    {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 665px)
+{
     #navigation
     {
         flex-wrap: wrap;
     }
     .nav12
     {
-        margin-left: 0px;
         order: 1;
         width: 100%;
+        margin-left: 0px;
     }
     .nav1
     {
+        width: 50%;
         border-top: none;
-        border-bottom:  #0065FC solid 2px;
-        padding-top: none;
-        padding-bottom: 30px;
-        width: 50%;
+        border-bottom: 3px solid #0065FC;
+        padding-bottom: 20px;
         margin-right: 0px;
-    } 
-    .nav2 
+    }
+    .nav2
     {
         width: 50%;
-        border-bottom: #F2F2F2 solid 2px;
-        padding-bottom: 30px;
-        text-align: center;
-    } 
-    #recherche
-    {
-        width: auto;
-        border: none;
-    }
-       
-    .ville
-    {
-        width: 200px;
-        border: 1px solid #f2f2f2;
-    }
-    .description h2
-    {
-        margin-top: 30px;
+        border-bottom: 3px solid #F2F2F2 ;
+        padding-bottom: 20px;
+        
     }
     .bouton
     {
@@ -231,124 +238,62 @@
     }
     .bouton2
     {
+        display: block;
         display: flex;
-        
-        
-    }
-    .bouton2 a 
-    {
-       display: flex;
         align-items: center;
-    }
-    .choix3
-    {
-        margin-top: 15px;
-        padding-right: 20px;
         
     }
-           
-    .choix4
+    #filtre h3
     {
-       margin-top: 15px;
+        padding-left: 5%;
     }
-    .element
+    .filtre1 , .filtre2
     {
-        padding-left: 0px;
-        padding-right: 0px;
-        align-items: center;
-    }
-    .conteneur
-    {
-        width: 100%;
-        height: auto;
-    }
-    .conteneur1
-    {
-        width: 100%;
-        height: auto;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-bottom: 20px;
-    }
-    .affichermob h3
-    {
-        display: flex;
-    }
-    .afficher h3
-    {
-        display: none;
-    }
-    .conteneur2
-    {
-        width: 100%;
-        height: auto;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .conteneur3
-    {
-        width: 100%;
-        height: auto;
-        margin-top:0px;
+        padding-left: 3%;
     }
     .entete
     {
-        padding-left: 0px;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 80px;
     }
     .chart
     {
-        
-        margin-left:  300px;
-        
-        
-    }
-    .imagepop
-    {
-        width: 90%;
-        height: 120px;
-    }
-    .hebergement, .image2, .image3, .afficher,  .image5, .affichermob, .affichmob, .affich, .image6
-    {
-      
-     width: 90%;
-     height: auto;
-     
-               
-        
-    }
-    .hebergement, .image2, .image3, .afficher,  .image5, .affichermob,  .image6
-    {
-      margin-top: 50px;
-    }
-
-    .image1,.image1 img, .image2 img, .image3 img, .affichmob, .affich, .image4, .image4 img, .image5 img, .image6 img 
-    {
-        width: 100%;
-        height: 135px;
-        
-        
-    }
-    .activite1, .activite2, .activite3, .activite4
-    {
-        width: 90%;
-        
-    }
-    .foot
-    {
-        align-items: flex-start;
-    }
-    .foot1, .foot2, .foot3
-    {
-        margin-left: 0px;
         margin-right: 0px;
-        width: auto;
-        height: auto;
+        
     }
 
+    .blocpop
+    {
+        height: auto;
+        width: 100%;
+        margin-left: 70px;
+    }
+    #conteneur2
+    {
+        border-radius: 0px;
+    }
+    #conteneur1
+    {
+        background-color: white;
+        
+    }
+    
+    #conteneur3
+    {
+        margin-top: 50px;
+    }
+    #conteneur3 h2 
+    {
+        padding-left: 5%;
+    }
+    .image
+    {
+        box-shadow: 5px 5px 5px 1px #F2F2F2;
+    }
+    .actim1 , .actim2 , .actim3 , .actim4 , .actim5 , .actim6
+    {
+        width: 90%;
+        padding: 5%;
+    }
 
 }

@@ -13,7 +13,7 @@
 .logo
 {
     padding-top: 40px;
-    padding-left: 40px;
+    padding-left: 20px;
     
 }
 .nav12
@@ -42,6 +42,7 @@
 .nav2
 {
     padding-top: 60px;
+    text-align: center;
 }
 .nav2 a
 {
@@ -69,10 +70,8 @@
 {
   display: flex;
   align-items: center;
-  margin-top: 30px;
-  
-  
-  padding-left: 40px;
+  margin-top: 30px;   
+  padding-left: 20px;
   font-weight: bold;
   
 }
@@ -84,48 +83,50 @@
 .filtre2
 {
     display: flex;
+    height: auto;
+    justify-content: space-between;
 }
 
 .element1  
 {
     height: 50px;
-    
+    width: auto;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 0 25px 25px 0;
-    display: flex;
-    align-items: center;
+    
+    
 }
 .element2
 {
     height: 50px;
-    
+    width: auto;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 0 25px 25px 0;
-    display: flex;
-    align-items: center;
+    
+    
 
 }
 .element3
 {
     height: 50px;
-    
+    width: auto;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 0 25px 25px 0;
-    display: flex;
-    align-items: center;
+    
+    
 }
 .element4
 {
     height: 50px;
-    
+    width: auto;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 0 25px 25px 0;
-    display: flex;
-    align-items: center;
+    
+    
 }
 .choix1:hover > .element1
 {
@@ -170,7 +171,7 @@
     border-radius: 30px;
     margin-right: 20px;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
 .choix2
@@ -180,7 +181,7 @@
     border-radius: 30px;
     margin-right: 20px;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
 .choix3
@@ -190,7 +191,7 @@
     border-radius: 30px;
     margin-right: 20px;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
 .choix4
@@ -200,7 +201,7 @@
     border-radius: 30px;
     margin-right: 20px;
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
 }
 .picto1
@@ -261,11 +262,9 @@
     display: flex;
     width: 400px ;
     border-radius: 10px;
-    padding-left: 40px;
-    justify-content: flex-start;
-    
-    
-        
+    padding-left: 20px;
+    justify-content: flex-start;    
+           
 }
 
 .information
@@ -273,7 +272,7 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 .info
 {
@@ -296,9 +295,7 @@
     background-color: #F2F2F2;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 .map 
 {
@@ -306,7 +303,7 @@ font-size: large;
 }
 .ville
 {
-    width: 220px;
+    width: 225px;
     display: flex;
     align-items: center;
     border:   1px solid #F2F2F2;
@@ -352,8 +349,8 @@ font-size: large;
 }
 .bouton2
 {
-    width: 50px;
-    height: 50px;
+    width: 53px;
+    height: 53px;
     border-radius: 15px;
     background-color: #0065FC;
     justify-content: center;
@@ -370,7 +367,7 @@ font-size: large;
 .description p
 {
      font-size: medium;
-     padding-left: 40px;
+     padding-left: 20px;
      margin-top: -10px;
      
 }
@@ -381,7 +378,7 @@ head p
 .description h2
 {
     font-size: 20px;
-    padding-left: 40px;
+    padding-left: 20px;
     font-weight: 900;
     margin-top: 40px;
 }
@@ -392,161 +389,83 @@ h3
 }
 .element1, .element2, .element3, .element4
 {
+    width: auto;
+    height: auto;
     font-size: large;
     font-weight: 900;
 }
+
 #conteneur
 {
-    width: 100%;
-    height: 700px;
+    
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
+    margin-top: 25px;
 }
 #conteneur1
 {
-    background-color: #F2F2F2; 
-    width: 800px;
+   background-color: #F2F2F2; 
+   flex: 2;
    height: 650px;
-   padding-left: 15px;
-   padding-right: 15px;
-   padding-top: 10px;
-   margin-top: 20px;
-   border-radius: 15px 15px 15px 15px;
+   padding-left: 20px;
+   padding-right: 20px; 
+   margin-right: 20px;    
+   border-radius: 10px;
    display: flex;
-   flex-wrap: wrap;
+   flex-direction: column;
    justify-content: space-around;
    
 }
 
-.hebergement
+.hebergement1
 {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
-.image1 img, .image2 img, .image3 img, .image4 img, .image5 img, .image6 img
+.hebergement2
 {
-    width: 230px;
-    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
-.hebergement h2
+.image1 img , .image2 img , .image3 img, .image4 img , .image5 img , .image6 img
+{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px
+    
+}
+#conteneur1 h2
 {
     font-weight: 900;
     font-size: 21px;
     
 }
-.afficher
-{
-    display: flex;
-    flex-direction: column;
-    width: 230px;
-    margin-left: -10px;
-}
-.affichermob
-{
-    display: flex;
-    flex-direction: column;
-    width: 230px;
-    height: auto;
-    margin-right: 20px;
-}
-.affichermob h3
-{
-    display: none;
-}
-.afficher h3
-{
-    margin-top: 35px;
-}
+
 #conteneur1 p
 {
    display: flex;
    align-self: start;
+   font-weight: 900;
+   font-size:large;
 }
-.image1
+.image
 {
-    
-    width: 230px;
-    height: 220px;
-    border: 4px white solid;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    width:30%;
+    height: auto;
+    padding: 1%;
+    background-color: #ffffff;
+    border-radius: 20px; 
+     
       
-    
 }
-.image1:hover
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.image2
-{
-    width: 230px;
-    height: 220px;
-    border: 4px white solid;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    margin-top:  62px;
-    margin-right: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.image2:hover
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-.image3
-{
-    width: 230px;
-    height: 220px;
-    border: 4px white solid;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 62px;
-    margin-right: 5px;
-
-}
-.image3:hover
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-.affich
-{
-    width: 230px;
-    height: auto;
-}
-.affichmob 
-{
-    width: 230px;
-    height: auto;
-}
-
-.image4
-{
-    width: 230px;
-    height: 220px;
-    border: 4px white solid;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.image4 .comment 
-{
-    margin-top: -20px;
-}
-.image4:hover
+.image:hover
 {
     cursor: pointer;
     transform: scale(1.1);
@@ -561,43 +480,14 @@ h3
     color: #F2F2F2;
 }
 
-.image5
-{
-    width: 230px;
-    height: 220px;
-    border: 4px white solid;
-    margin-right: -15px;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.image5:hover
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-.image6
-{
-    width: 230px;
-    height: 220px;
-    margin-left: 17px;
-    border: 4px white solid;
-    background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.image6:hover
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
+
 .comment
 {
-    padding-left: 10px;
+    width: 90%;
+    padding-left: 5px;
+    
+    
+    
     
 }
 .comment h3
@@ -617,12 +507,15 @@ h3
     font-weight: 900;
     
     
+    
 }
-.commentaire p
+.commentaire
 {
-    font-size: small;
-    padding-right: 20px;
-    margin-right: -20px;
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
     
 }
 .ico
@@ -643,94 +536,72 @@ h3
 {
     font-size: 21px;
     font-weight: 900;
-    padding-top: 20px;
+    
+}
+.blocpop
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.imagepop
+.imagepop1 , .imagepop2 , .imagepop3
 {
-    width: 290px;
-    height: 130px;
+    
+    height: 150px;
     border: 4px white solid;
     background-color: white;
-    border-radius: 15px 15px 15px 15px;
-    margin-bottom: 65px;
+    border-radius: 20px;
+    padding: 1% 0 1% 1%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
     
     
 }
 
-.imagepop:hover
+.imagepop1:hover , .imagepop2:hover , .imagepop3:hover
 {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
   
-.imagepop img
+.pop1 img , .pop2 img , .pop3 img
 {
-    width: 130px;
-    height: 130px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-right: 35px;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px 0px 0px 10px
+    
 }
 .icone1
 {
     font-size: smaller;
 
 }
-.image1 img
+#conteneur2
 {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-.image2 img
-{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
- }   
- .image3 img
- {
-     border-top-left-radius: 15px;
-     border-top-right-radius: 15px;
- }
- .image4 img
- {
-     border-top-left-radius: 15px;
-     border-top-right-radius: 15px;
- }
- .image5 img
- {
-     border-top-left-radius: 15px;
-     border-top-right-radius: 15px;
- }
- .image6 img
- {
-     border-top-left-radius: 15px;
-     border-top-right-radius: 15px;
- }
-  
-
- #conteneur2
- {
     background-color: #F2F2F2;
-    width: 375px;
+    flex: 1;
     height: 650px;
-    border-radius: 15px 15px 15px 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 50px;
-    padding-right: 5px;
-    padding-top: 15px;
-    margin-top: 20px;
+    
     
     
 }
 .chart
 {
-    padding-top: 30px;
-    padding-right:  80px; ;
+    
+    padding-top: 20px;
     font-size: 25px ;
 }
   
@@ -738,27 +609,32 @@ h3
 {
     
     width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
-    
-    
-    
-}
-      
-.activite1
-{
-    width: 250px;
-    height: 400px;
+    height: 600px;
+    margin-top: 100px;
        
     
-    
 }
-.activite1 h2
+.blocacti
+{
+    height: auto;
+    display: flex;
+    justify-content:space-between
+}
+      
+
+{
+    width: 25%;
+    height: 400px;   
+      
+       
+}
+
+#conteneur3 h2
 {
     font-size: 21px;
     font-weight: 900;
+    
+    
 }
 .activite1 p
 {
@@ -772,7 +648,7 @@ h3
 
 .activite2
 {
-    width: 250px;
+    width: 25%;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -787,11 +663,7 @@ h3
     margin-left: 5%;
 }
 
-.activite3
-{
-    width: 250px;
-    height: 400px;
-}
+
 .activite3 p
 {
     font-size: medium;
@@ -800,7 +672,7 @@ h3
 }
 .activite4
 {
-    width: 250px;
+    width: 25%;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -816,21 +688,24 @@ h3
 .actim1
 {
     width: 250px;
-    height: 360px;
+    height: 100%;
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
     border-radius: 15px 15px 15px 15px;
-    margin-top: -5px;
+    
+    
        
 }
-.actim1:hover
+.actim1:hover , .actim2:hover, .actim3:hover, .actim4:hover, .actim5:hover, .actim6:hover
 {
     cursor: pointer;
     transform: scale(1.2);
 }
 
-.actim1 img
+.actim1 img , .actim4 img
 {
+    background-size: cover;
+    background-position: center;
     width: 250px;
     height: 300px;
     border-top-left-radius: 15px;
@@ -841,18 +716,16 @@ h3
 {
     width: 250px;
     height: 210px;
-    margin-top: 57px;
+    
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
     border-radius: 15px 15px 15px 15px;
 }
-.actim2:hover
-{
-    cursor: pointer;
-    transform: scale(1.2);
-}
+
 .actim2 img
 {
+    background-size: cover;
+    background-position: center;
     width: 250px;
     height: 130px;
     border-top-left-radius: 15px;
@@ -862,20 +735,17 @@ h3
 .actim3
 {
     width: 250px;
-    height: 140px;
-    margin-top: 57px;
+    height: 150px;
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
     border-radius: 15px 15px 15px 15px;
     margin-top: 40px;
 } 
-.actim3:hover
-{
-    cursor: pointer;
-    transform: scale(1.2);
-}
+
 .actim3 img
 {
+    background-size: cover;
+    background-position: center;
     width: 250px;
     height: 75px;
     border-top-left-radius: 15px;
@@ -885,46 +755,33 @@ h3
 {
 
     width: 250px;
-    height: 360px;
-    margin-top: 57px;
+    height: 100%;
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
     border-radius: 15px 15px 15px 15px;
     
 }
-.actim4:hover
-{
-    cursor: pointer;
-    transform: scale(1.2);
-}
-.actim4 img
-{
-    width: 250px;
-    height: 300px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
+
+
 .actim5
 {
     width: 250px;
-    height: 145px;
-    margin-top: 57px;
+    height: 155px;    
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
     border-radius: 15px 15px 15px 15px; 
 }
-.actim5:hover
-{
-    cursor: pointer;
-    transform: scale(1.2);
-}
+
 .actim5 img
 {
+    background-size: cover;
+    background-position: center;
     width: 250px;
     height: 110px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
 .actim6
 {
     width: 250px;
@@ -934,13 +791,11 @@ h3
     border-radius: 15px 15px 15px 15px; 
     margin-top: 35px;
 }
-.actim6:hover
-{
-    cursor: pointer;
-    transform: scale(1.2);
-}
+
 .actim6 img
 {
+    background-size: cover;
+    background-position: center;
     width: 250px;
     height: 130px;
     border-top-left-radius: 15px;
@@ -950,28 +805,20 @@ h3
 .foot 
 {
     background-color: #F2F2F2;
-    height: 200px;
+    height: 300px;
     padding-top: 50px;
-    margin-top: 100px;
     display: flex;
-    justify-content: space-between;
-    
-    
-    
-    
-}
-
-    
+    justify-content: space-between;     
+       
+}   
 .foot1
 {
     width: 33%;
     height: 150px;
     margin-left: 2%;
     margin-right: 10%;
-    
-    
-    
-    
+     
+       
 }
 .foot1 p
 {
