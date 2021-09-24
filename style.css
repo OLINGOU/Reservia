@@ -87,47 +87,19 @@
     justify-content: space-between;
 }
 
-.element1  
+.element1 , .element2 , .element3 , .element4
 {
-    height: 50px;
+    height: auto;
     width: auto;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 0 25px 25px 0;
+    font-size: large;
+    font-weight: 900;
     
     
 }
-.element2
-{
-    height: 50px;
-    width: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0 25px 25px 0;
-    
-    
 
-}
-.element3
-{
-    height: 50px;
-    width: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0 25px 25px 0;
-    
-    
-}
-.element4
-{
-    height: 50px;
-    width: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0 25px 25px 0;
-    
-    
-}
 .choix1:hover > .element1
 {
     color: #0065FC;
@@ -164,46 +136,16 @@
     color: white;
     background-color: #0065FC;
 }
-.choix1
+.choix1 , .choix2 , .choix3 , .choix4
 {
     border: 2px solid #F2F2F2;
     height: 50px;
     border-radius: 30px;
     margin-right: 20px;
-    display: flex;
-    
+    display: flex;    
     align-items: center;
 }
-.choix2
-{
-    border: 2px solid #F2F2F2;
-    height: 50px;
-    border-radius: 30px;
-    margin-right: 20px;
-    display: flex;
-    
-    align-items: center;
-}
-.choix3
-{
-    border: 2px solid #F2F2F2;
-    height: 50px;
-    border-radius: 30px;
-    margin-right: 20px;
-    display: flex;
-    
-    align-items: center;
-}
-.choix4
-{
-    border: 2px solid #F2F2F2;
-    height: 50px;
-    border-radius: 30px;
-    margin-right: 20px;
-    display: flex;
-    
-    align-items: center;
-}
+
 .picto1
 {
     border-radius: 25px;
@@ -318,15 +260,11 @@ font-size: large;
 
 
 .ville ::placeholder
-{
-    
-    
+{    
     font-size: large;
     color: black;
-    font-weight: 900;
-  
-     
-    
+    font-weight: 900; 
+        
 }
 .bouton 
 {
@@ -387,13 +325,7 @@ h3
     font-size: large;
     font-weight: 900;
 }
-.element1, .element2, .element3, .element4
-{
-    width: auto;
-    height: auto;
-    font-size: large;
-    font-weight: 900;
-}
+
 
 #conteneur
 {
@@ -504,9 +436,7 @@ h3
 .commentaire h3
 {
     font-size: medium;
-    font-weight: 900;
-    
-    
+    font-weight: 900;   
     
 }
 .commentaire
@@ -618,14 +548,13 @@ h3
 {
     height: auto;
     display: flex;
-    justify-content:space-between
+    justify-content: space-around;
 }
       
-
+.activite1 , .activite3
 {
     width: 25%;
-    height: 400px;   
-      
+    height: 400px;        
        
 }
 
@@ -646,7 +575,7 @@ h3
     
 }
 
-.activite2
+.activite2 , .activite4
 {
     width: 25%;
     height: 400px;
@@ -670,15 +599,8 @@ h3
     font-weight: 900;
     margin-left: 5%;
 }
-.activite4
-{
-    width: 25%;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     
-}
+
 .activite4 p
 {
     font-size: medium;
@@ -687,7 +609,7 @@ h3
 }
 .actim1
 {
-    width: 250px;
+    width: 80%;
     height: 100%;
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
@@ -706,7 +628,7 @@ h3
 {
     background-size: cover;
     background-position: center;
-    width: 250px;
+    width: 100%;
     height: 300px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -714,7 +636,7 @@ h3
 }
 .actim2
 {
-    width: 250px;
+    width: 80%;
     height: 210px;
     
     border: 4px white solid;
@@ -726,7 +648,7 @@ h3
 {
     background-size: cover;
     background-position: center;
-    width: 250px;
+    width: 100%;
     height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -734,7 +656,7 @@ h3
 }
 .actim3
 {
-    width: 250px;
+    width: 80%;
     height: 150px;
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
@@ -746,7 +668,7 @@ h3
 {
     background-size: cover;
     background-position: center;
-    width: 250px;
+    width: 100%;
     height: 75px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -754,7 +676,7 @@ h3
 .actim4
 {
 
-    width: 250px;
+    width: 80%;
     height: 100%;
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
@@ -765,7 +687,7 @@ h3
 
 .actim5
 {
-    width: 250px;
+    width: 80%;
     height: 155px;    
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
@@ -776,7 +698,7 @@ h3
 {
     background-size: cover;
     background-position: center;
-    width: 250px;
+    width: 100%;
     height: 110px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -784,7 +706,7 @@ h3
 
 .actim6
 {
-    width: 250px;
+    width: 80%;
     height: 200px;
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
@@ -796,7 +718,7 @@ h3
 {
     background-size: cover;
     background-position: center;
-    width: 250px;
+    width: 100%;
     height: 130px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
