@@ -1,15 +1,23 @@
 * {
     font-family: 'Raleway', sans-serif;
 }
+.colorblue
+{
+    color: #0065FC;
+}
+.colorgrey
+{
+    color: #F2F2F2;
+}
 #navigation
 {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding-right: 80px;
+    margin-right: 80px;
   
 } 
-/*test*/
+
   
 .logo
 {
@@ -21,21 +29,23 @@
 {
     display: flex;
     margin-left: 700px;
+    text-align: end;
+    
 }
-/*test2*/
+
 
 .nav1
 {
     
     border-top: #0065FC solid 1px;
-    margin-right: 40px;
+    margin-right: 80px;
     padding-top: 60px;
     text-align: center;
 }
-.nav1 a
+.nav1 a , .nav3 a
 {
-    margin-right: 40px;
-    margin-left: 30px;
+    
+    
     text-decoration: none;
     color: #0065FC;
     font-size: medium;
@@ -44,11 +54,12 @@
 .nav2
 {
     padding-top: 60px;
-    text-align: center;
+    margin-left: 30px;
+    text-align: end;
 }
 .nav2 a
 {
-    margin-right: 40px;
+    
     text-decoration: none;
     color: black;
     font-size: medium;
@@ -57,16 +68,12 @@
 .nav3
 {
     padding-top: 60px;
-    margin-right: 70px;
+    margin-right: 80px;
+    text-align: start;
+    
+    
 }
-.nav3 a
-{
-    text-decoration: none;
-    color: #0065FC;
-    font-size: medium;
-    font-weight: bold;
 
-}     
         
 #filtre 
 {
@@ -102,42 +109,17 @@
     
 }
 
-.choix1:hover > .element1
+.choix1:hover > .element1 , .choix2:hover > .element2 , .choix3:hover > .element3 , .choix4:hover > .element4
 {
     color: #0065FC;
 }
-.choix2:hover > .element2
-{
-    color: #0065FC;
-}
-.choix3:hover > .element3
-{
-    color: #0065FC;
-}
-.choix4:hover > .element4
-{
-    color: #0065FC;
-}
-.choix1:hover > .picto1
+
+.choix1:hover > .picto1 , .choix2:hover > .picto2 , .choix3:hover > .picto3 , .choix4:hover > .picto4
 {
     color: white;
     background-color: #0065FC;
 }
-.choix2:hover > .picto2
-{
-    color: white;
-    background-color: #0065FC;
-}
-.choix3:hover > .picto3
-{
-    color: white;
-    background-color: #0065FC;
-}
-.choix4:hover > .picto4
-{
-    color: white;
-    background-color: #0065FC;
-}
+
 .choix1 , .choix2 , .choix3 , .choix4
 {
     border: 2px solid #F2F2F2;
@@ -148,7 +130,7 @@
     align-items: center;
 }
 
-.picto1
+.picto1 , .picto2 , .picto3 , .picto4
 {
     border-radius: 25px;
     width: 52px;
@@ -162,45 +144,7 @@
     font-weight: 900;
     
 }
-.picto2
-{
-    border-radius: 25px;
-    width: 52px;
-    height: 52px;
-    color:#0065FC;
-    background-color: #DEEBFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: larger;
-    font-weight: 900;
-}   
-.picto3
-{
-    border-radius: 25px;
-    width: 52px;
-    height: 52px;
-    color:#0065FC;
-    background-color: #DEEBFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: larger;
-    font-weight: 900;
-}   
-.picto4
-{
-    border-radius: 25px;
-    width: 52px;
-    height: 52px;
-    color:#0065FC;
-    background-color: #DEEBFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: larger;
-    font-weight: 900;
-}   
+
 #recherche
 {
     display: flex;
@@ -333,9 +277,10 @@ h3
 {
     
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 25px;
+    width: 100%;
 }
 #conteneur1
 {
@@ -344,7 +289,7 @@ h3
    height: 650px;
    padding-left: 20px;
    padding-right: 20px; 
-   margin-right: 20px;    
+   margin-right: 20px;
    border-radius: 10px;
    display: flex;
    flex-direction: column;
@@ -352,20 +297,14 @@ h3
    
 }
 
-.hebergement1
+.hebergement1 , .hebergement2
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
-.hebergement2
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-}
+
 .image1 img , .image2 img , .image3 img, .image4 img , .image5 img , .image6 img
 {
     background-size: cover;
@@ -405,24 +344,11 @@ h3
     transform: scale(1.1);
 }
 
-.colorblue
-{
-    color: #0065FC;
-}
-.colorgrey
-{
-    color: #F2F2F2;
-}
-
-
 .comment
 {
     width: 90%;
-    padding-left: 5px;
-    
-    
-    
-    
+    padding-left: 5px;   
+       
 }
 .comment h3
 {
@@ -519,16 +445,13 @@ h3
     background-color: #F2F2F2;
     flex: 1;
     height: 650px;
-    margin-left: 20px;
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
-    
-    
+            
 }
 .chart
 {
@@ -548,9 +471,10 @@ h3
 }
 .blocacti
 {
+    width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
       
 .activite1 , .activite3
@@ -567,14 +491,12 @@ h3
     
     
 }
-.activite1 p
+.activite1 p , .activite2 p , .activite3 p , .activite4 p
 {
     font-size: medium;
     font-weight: 900;
     margin-left: 5%;
-    
-    
-    
+           
 }
 
 .activite2 , .activite4
@@ -584,30 +506,7 @@ h3
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    
-}
-.activite2 p
-{
-    font-size: medium;
-    font-weight: 900;
-    margin-left: 5%;
-}
-
-
-.activite3 p
-{
-    font-size: medium;
-    font-weight: 900;
-    margin-left: 5%;
-}
-    
-
-.activite4 p
-{
-    font-size: medium;
-    font-weight: 900;
-    margin-left: 5%;
+       
 }
 .actim1
 {
@@ -616,14 +515,12 @@ h3
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
     border-radius: 15px 15px 15px 15px;
-    
-    
-       
+              
 }
 .actim1:hover , .actim2:hover, .actim3:hover, .actim4:hover, .actim5:hover, .actim6:hover
 {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .actim1 img , .actim4 img
@@ -640,7 +537,6 @@ h3
 {
     width: 80%;
     height: 210px;
-    
     border: 4px white solid;
     box-shadow: 6px 6px 6px #F2F2F2 ;
     border-radius: 15px 15px 15px 15px;
@@ -729,13 +625,14 @@ h3
 .foot 
 {
     background-color: #F2F2F2;
+    width: 100%;
     height: 300px;
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;
     justify-content: space-between;     
        
 }   
-.foot1
+.foot1 , .foot2 , .foot3
 {
     width: 33%;
     height: 150px;
@@ -744,36 +641,12 @@ h3
      
        
 }
-.foot1 p
+.foot1 p , .foot2 p , .foot3 p
 {
    font-size: medium;
 }
 
-.foot2
-{
-   width: 33%; 
-   height: 150px;
-   margin-left: 2%;
-   margin-right: 10%;
-   
-}
-.foot2 p
-{
-  font-size: medium; 
-}
-.foot3
-{
-   width: 33%; 
-   height: 150px;
-   margin-left: 2%;
-   margin-right: 10%;
-   
 
-}
-.foot3 p
-{
-    font-size: medium;
-}
 
 
 

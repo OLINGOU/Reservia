@@ -27,7 +27,7 @@
    .blocpop
    {
        width: 100%;
-       margin-left: 150px;
+       align-items: center;
    }
    .entete
    {
@@ -76,12 +76,18 @@
     {
         flex: none;
         width: 90%;
-        padding-right: 200px;
-        justify-content: center;
+        padding: 5%;
+        align-items: center;
+        
     }
     #conteneur3
     {
+        display: flex;
+        width: 90%;
+        padding: 5%;
+        flex-direction: column;
         height: auto;
+        justify-content: center;
     }
     #filtre
     {
@@ -121,16 +127,17 @@
         padding-right: 10px;
         
     }
-    .blocpop
-    {
-        margin-left: 100px;
-        
-    }
+    
    
     .imagepop1 , .imagepop2 , .imagepop3
    {
        width: 100%;
        height: auto;
+   }
+   .pop1 img , .pop2 img , .pop3 img
+   {
+       width: 200px;
+       height: 200px;
    }
     .entete
     {
@@ -150,50 +157,62 @@
     }
     .image
     {
-        width: 100%;
+        width: 70%;
+        height: auto;
         margin-bottom: 50px;
+    }
+    
+    .image1 img , .image2 img , .image3 img, .image4 img , .image5 img , .image6 img
+    {
+     width: 100%;
+     height: 200px;
     }
     .comment
     {
         min-height: auto;
     }
+       
     .blocacti
     {
+        width: 100%;
+        height: auto;
         flex-direction: column;
+        justify-content: center;
     }
     .activite1 , .activite2 , .activite3 , .activite4
     {
         width: 100%;
         height: auto;
+        justify-content: center;
     }
-    .actim1 ,  .actim3 , .actim4 , .actim6
+    .actim1 ,  .actim2 , .actim3 , .actim4 , .actim5 , .actim6
     {
-        width: 100%;
+        width: 70%;
         height: auto;
+        margin: auto;
         margin-bottom: 50px;
     }
-    .actim2 , .actim5
-    {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
+    
+    
     .actim1 img , .actim2 img , .actim3 img , .actim4 img , .actim5 img , .actim6 img
     {
+        width: 100%;
         height: 200px;
     }
     .foot
     {
         flex-direction: column;
         height: auto;
-        align-items: flex-start;
-        padding-left: 20px;
+        padding-left: 5%;
+        
+        
     }
     .foot1 , .foot2 , .foot3
     {
-        margin: 0px;
+        margin: auto;
         height: auto;
-        width: 100%;
+        text-align: start;
+        
     }
 
 
@@ -203,6 +222,32 @@
     .entete
     {
         margin-left: 100px;
+    }
+    #conteneur1 h2 
+    {
+        text-align: center;
+        
+    }
+    #conteneur3
+    {
+        align-content: center;
+        
+    }
+    #conteneur3 h2 
+    {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .actim1 , .actim2 ,  .actim3 , .actim4 , .actim5 , .actim6
+    {
+        width: 70%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .actim1 img , .actim2 img , .actim3 img , .actim4 img , .actim5 img , .actim6 img
+    {
+        width: 100%;
+        height: 2OOpx;
     }
 }
 @media screen and (max-width: 665px)
@@ -230,6 +275,8 @@
         width: 50%;
         border-bottom: 3px solid #F2F2F2 ;
         padding-bottom: 20px;
+        text-align: center;
+        margin-left: 0px;
         
     }
     .bouton
@@ -266,7 +313,7 @@
     {
         height: auto;
         width: 100%;
-        margin-left: 70px;
+        
     }
     #conteneur2
     {
@@ -277,23 +324,62 @@
         background-color: white;
         
     }
+    #conteneur1 h2 
+    {
+        text-align: start;
+        
+    }
     
     #conteneur3
     {
-        margin-top: 50px;
+        margin-top: 0px;
+        
     }
     #conteneur3 h2 
     {
-        padding-left: 5%;
+        
+        text-align: start;
     }
     .image
     {
+        
+        width: 100%;
+        min-height: 300px;
+        margin-bottom: 50px;
         box-shadow: 5px 5px 5px 1px #F2F2F2;
+    }
+    .image:hover
+    {
+    cursor:none;
+    transform:none;
+    }
+    .imagepop1:hover , .imagepop2:hover , .imagepop3:hover
+    {
+    cursor: none;
+    transform: none;
+    }
+    .actim1:hover , .actim2:hover, .actim3:hover, .actim4:hover, .actim5:hover, .actim6:hover
+    {
+    cursor: none;
+    transform: none;
     }
     .actim1 , .actim2 , .actim3 , .actim4 , .actim5 , .actim6
     {
-        width: 90%;
-        padding: 5%;
+        width: 100%;
+        min-height: 300px;
+        
+    }
+    .foot
+    {
+        padding-top: 50px;
+    }
+    .foot1 , .foot2 , .foot3
+    {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        text-align: start;
+        
     }
 
 }
